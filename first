@@ -1,0 +1,7 @@
+n=int(input())
+d={}
+for i in range(n):
+    key=input("enter key: ")
+    value=input("enter value: ")
+    d[key]=value
+print(d)    
